@@ -83,7 +83,7 @@
                     _item.type = _i + '';
                     _item.value = 10;
                     if (_i === datacount) {
-                        _item.value = 14;
+                        _item.value = 10;
                     }
                     if (_i > datacount) {
                         _item.value = 0;
