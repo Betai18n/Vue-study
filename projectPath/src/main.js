@@ -21,13 +21,16 @@ import {
   VChart,
   VTooltip, 
   VLine, 
-  VScale    
+  VScale,
+  Countup    
 } from 'vux'
 
 
 import tabbar_buttom from '@/components/tabbar_buttom'
 
-
+import G2 from '@antv/g2';
+Vue.prototype.$G2 = G2; 
+G2.track(false);
 
 Vue.component('tabbar', Tabbar)
 Vue.component('tabbar-item', TabbarItem)
@@ -40,7 +43,7 @@ Vue.component('v-chart',VChart)
 Vue.component('v-tooltip',VTooltip)
 Vue.component('v-line',VLine)
 Vue.component('v-scale',VScale)
-
+Vue.component('countup', Countup)
 
 
 

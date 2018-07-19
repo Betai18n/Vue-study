@@ -1,7 +1,7 @@
 <template>
     <div>
         <span>list3</span>
-        <div id="c1">
+        <div id="c3">
             <div>
                 <v-chart
                 prevent-render

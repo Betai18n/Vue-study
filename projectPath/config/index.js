@@ -50,15 +50,15 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../../WEB-INF/views/gld_report/index.html'),
+    index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths
     //静态资源根目录
-    assetsRoot: path.resolve(__dirname, '../../gld_report/'),
+    assetsRoot: path.resolve(__dirname, '../dist'),
     //静态资源子目录
     assetsSubDirectory: 'static',
     //访问静态资源的项目名称
-    assetsPublicPath: '/hmqy/gld_report/',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps

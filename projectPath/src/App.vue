@@ -2,7 +2,9 @@
   <div id="app" style="height:100%">
     <div style="height:100%;">
       <view-box>
-        <router-view></router-view>
+        <transition name="fade">
+          <router-view></router-view>
+        </transition>
         <tabbar_buttom slot="bottom">
         </tabbar_buttom>
       </view-box>
