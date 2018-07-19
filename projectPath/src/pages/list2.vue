@@ -4,7 +4,7 @@
         <!-- <v-chart
         prevent-render
         @on-render="renderChart"></v-chart> -->
-        <!-- <v-chart id="c1"
+        <!-- <v-chart id="c2"
         prevent-render
         @on-render="renderChartcircle"></v-chart> -->
         <div style="width:100vw;height:20vh">
