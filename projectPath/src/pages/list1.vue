@@ -4,6 +4,9 @@
         <br>
         <span>{{getCount}}</span>
         <x-button type="primary" @click.native="add()">add</x-button>
+        <div>
+
+        </div>
     </div>
 </template>
 
@@ -28,3 +31,7 @@
         }
     }
 </script>
+
+<style lang="scss" scoped>
+    @import '../theme/list1.scss';
+</style>
