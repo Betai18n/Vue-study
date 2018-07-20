@@ -1,6 +1,6 @@
 <template>
     <div>
-        <span>list1</span>
+        <span class="titlespan">list1</span>
         <br>
         <span>{{getCount}}</span>
         <x-button type="primary" @click.native="add()">add</x-button>
