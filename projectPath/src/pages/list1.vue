@@ -4,8 +4,8 @@
         <br>
         <span>{{getCount}}</span>
         <x-button type="primary" @click.native="add()">add</x-button>
-        <div>
-
+        <div class="animationblock">
+            
         </div>
     </div>
 </template>

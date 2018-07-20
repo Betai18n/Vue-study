@@ -1,3 +1,29 @@
 .titlespan{
     background-color: red;
 }
+$radius : 1rem;
+
+.animationblock{
+    text-align: center;
+    margin: auto auto;
+    height: $radius*2;
+    width: $radius*2;
+    border-radius: $radius;
+    background-color: aqua;
+    animation: myanimation 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myanimation{
+    from{
+        border-radius: $radius;
+        height: $radius*2;
+        width: $radius*2;
+    }
+    to{
+        border-radius: 0px;
+        height:1px;
+        width: 1px;
+    }
+}
